@@ -1,0 +1,118 @@
+/*- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* Below 1000px */
+@media (max-width: 62.5rem) {
+  .portfolioDetails-description {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+  .techStack-description {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+  .portfolio-details-bottom {
+    margin-left: 6.4rem;
+    margin-right: 6.4rem;
+  }
+}
+/* Below 816px */
+@media (max-width: 52rem) {
+  .portfolio-details-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+  .techStack-grid {
+    padding-right: 27.6rem;
+  }
+  .portfolio-details-bottom {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-top: 0rem;
+  }
+}
+
+/* Below 672px  */
+@media (max-width: 42rem) {
+  .techStack-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Below 544 */
+@media (max-width: 34rem) {
+  .techStack-description {
+    font-size: 1.8rem;
+  }
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .demo:link,
+  .demo:visited {
+    font-size: 1.8rem;
+    padding: 1rem 2.2rem;
+  }
+  .techStack-grid {
+    padding: 0;
+  }
+  .container {
+    padding: 0 2.4rem;
+  }
+  .mx-5 {
+    margin-left: 4.8rem;
+    text-align: center;
+  }
+  .carousel__button--left {
+    left: -40px;
+  }
+  .carousel__button--right {
+    right: -40px;
+  }
+  .carousel__button svg {
+    display: block;
+    height: 17px;
+    width: 17px;
+  }
+}
+
+/* Below 424px */
+@media (max-width: 26.5rem) {
+  .portfolioDetails-description {
+    font-size: 1.8rem;
+  }
+  .techStack-description {
+    font-size: 1.8rem;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+  .demo:link,
+  .demo:visited {
+    /* font-size: 1.4rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px; */
+  }
+  .container {
+    padding: 0 1.3rem;
+  }
+  .mx-5 {
+    /* margin-left: 3.5rem; */
+    text-align: center;
+  }
+  .carousel__button--left {
+    left: -32px;
+  }
+  .carousel__button--right {
+    right: -32px;
+  }
+}
