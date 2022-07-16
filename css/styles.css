@@ -117,7 +117,7 @@ header {
   color: #143e60;
 }
 .footer-temp-logo {
-  font-size: 3.2rem;
+  font-size: 4.2rem;
   font-family: 'Montserrat', sans-serif;
   color: #143e60;
 }
@@ -522,6 +522,35 @@ header {
 /* **************SECTION-FOOTER**************** */
 footer {
   position: relative;
+}
+.section-footer {
+  margin-top: 20rem;
+  padding: 2.4rem 0;
+  background-color: #d0ebff;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+}
+.section-footer .flex {
+  justify-content: space-around;
+  align-content: space-around;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 2.4rem;
+}
+.footer-link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+}
+.footer-logo-box {
+  margin-block: auto;
 }
 /* .section-footer {
   margin-top: 20rem;
