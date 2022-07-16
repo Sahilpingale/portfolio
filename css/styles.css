@@ -523,7 +523,7 @@ header {
 footer {
   position: relative;
 }
-.section-footer {
+/* .section-footer {
   margin-top: 20rem;
   padding: 2.4rem 0;
   background-color: #d0ebff;
@@ -582,7 +582,7 @@ footer {
 }
 .contacts {
   font-style: normal;
-}
+} */
 
 /* SECTION - PORTFOLIO-DETAILS */
 .portfolioDetails-description {
