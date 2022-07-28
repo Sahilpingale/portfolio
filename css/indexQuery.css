@@ -91,6 +91,12 @@
     font-size: 2.1rem;
     line-height: 1.7;
   }
+
+  /* Section Skills */
+  .skills-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
   /* Section Features */
   .feature-icon svg {
     height: 28px;
@@ -176,6 +182,15 @@
   }
   .section-about-me .grid {
     column-gap: 2.4rem;
+  }
+
+  /* Section Skills */
+  .section-skills svg {
+    height: 64px;
+    width: 64px;
+  }
+  .section-skills .portfolio-title {
+    font-size: 2.2rem;
   }
 
   /* Section Features */
@@ -287,6 +302,15 @@
     width: 66%;
   }
 
+  /* Section Skills */
+  .section-skills svg {
+    height: 6rem;
+    width: 6rem;
+  }
+  .skills-grid {
+    column-gap: 1.2rem;
+  }
+
   /* Section Features */
   .section-features .grid-col-2 {
     grid-template-columns: 1fr;
@@ -369,6 +393,19 @@
   .hero-img-box img {
     width: 55%;
   }
+
+  /* Section Skills */
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .section-skills .portfolio-title {
+    font-size: 2rem;
+  }
+  .skills-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 5.2rem;
+  }
+
   /* Section How It works */
   .process-text-box {
     display: block;
@@ -407,6 +444,18 @@
   /* Section Hero */
   .hero-img-box img {
     width: 65%;
+  }
+
+  /* Section Skills */
+  .section-skills svg {
+    height: 5.2rem;
+    width: 5.2rem;
+  }
+  .section-skills .portfolio-title {
+    font-size: 1.8rem;
+  }
+  .skills-grid {
+    column-gap: 1.2rem;
   }
 
   /* Section Featues */
@@ -458,6 +507,17 @@
   .hero-img-box img {
     width: 70%;
   }
+
+  /* Section Skills */
+  .section-skills svg {
+    height: 4.4rem;
+    width: 4.4rem;
+  }
+  .skills-grid {
+    column-gap: 0.6rem;
+    row-gap: 4.4rem;
+  }
+
   /* Hero Wave */
   .custom-shape-divider-bottom-1652342433 svg {
     height: 170px;

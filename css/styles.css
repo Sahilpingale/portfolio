@@ -662,43 +662,33 @@ footer {
   margin-left: 6.4rem;
   margin-right: 6.4rem;
 }
-/* test */
-/* .slide-row {
-  display: flex;
-  width: 150rem;
-  transition: 0.5s;
+
+/* SECTION SKILLS */
+.section-skills {
+  background-color: #d0ebff;
+  padding-block: 7.2rem;
+  margin-top: 4.4rem;
 }
-.slide-col {
-  width: 50rem;
-  height: 400px;
-  position: relative;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  row-gap: 5.5rem;
+  justify-items: center;
+  margin-top: 3.2rem !important;
 }
-.slide-col img {
-  width: 100%;
+.skills-subheading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 7.2rem;
+  margin-top: 1.2rem;
+  letter-spacing: 0.75px;
 }
-.indicator {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -50px;
+.skill-item {
+  text-align: center;
 }
-.btn1 {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  margin: 4px;
-  border-radius: 15px;
-  background: black;
-  cursor: pointer;
+.section-skills svg {
+  height: 76px;
+  width: 76px;
 }
-.active {
-  width: 45px;
-}
-.carousel {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.test-container {
-  width: 50rem;
-} */
