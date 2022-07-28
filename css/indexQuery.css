@@ -120,6 +120,14 @@
     padding: 0;
     transform: translateX(20px);
   }
+
+  /* Section Footer */
+  .footer-grid {
+    column-gap: 9.2rem;
+  }
+  .footer-temp-logo {
+    font-size: 4rem;
+  }
 }
 
 /********************/
@@ -150,7 +158,6 @@
   }
   .hero {
     top: 45%;
-    /* left: 53%; */
     padding: 0 2.4rem;
   }
   .hero-description {
@@ -211,7 +218,6 @@
     column-gap: 4.4rem;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5.4rem;
-    /* padding-inline: 3.2rem; */
   }
   .section-portfolio .flex {
     flex-direction: column;
@@ -221,6 +227,18 @@
   .portfolio-external-btn:visited {
     padding: 0;
     transform: translateX(0);
+  }
+
+  /* Section Footer */
+  .footer-grid {
+    column-gap: 7.2rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 2rem;
+  }
+  .footer-temp-logo {
+    font-size: 3.2rem;
   }
 }
 
@@ -336,23 +354,10 @@
     padding-inline: 0;
     column-gap: 3.2rem;
   }
+
   /* Section Footer */
-  .section-footer .grid-col-4 {
-    grid-template-columns: 1.4fr 1fr;
-  }
-  .section-footer .grid {
-    justify-items: start;
-    row-gap: 4.4rem;
-    /* column-gap: 2.4rem; */
-  }
-  .copyrights {
-    padding-right: 4.4rem;
-  }
-  .logo-col {
-    grid-row: 2/3;
-  }
-  .contact-me {
-    grid-row: 2/3;
+  .footer-grid {
+    column-gap: 4.2rem;
   }
 }
 
@@ -378,11 +383,14 @@
     margin-bottom: 0;
   }
   /* Section Footer */
-  .copyrights {
-    padding-right: 6.4rem;
+  .section-footer .flex {
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    gap: 3.2rem;
+    align-items: center;
   }
-  .footer-temp-logo {
-    font-size: 2.8rem;
+  .footer-grid {
+    column-gap: 10.2rem;
   }
 }
 /****************/
@@ -432,6 +440,14 @@
   .cta-form-box {
     padding-inline: 3.2rem;
   }
+  /* Section Footer */
+  .footer-grid {
+    column-gap: 8.2rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.8rem;
+  }
 }
 
 /**************/
@@ -455,11 +471,8 @@
   }
 
   /* Section Footer */
-  .social-links {
-    gap: 2.2rem;
-  }
-  .footer-temp-logo {
-    font-size: 2.4rem;
+  .footer-grid {
+    column-gap: 6.2rem;
   }
 }
 
@@ -486,12 +499,6 @@
   }
   .cta-text-box {
     padding: 4.4rem 2.4rem;
-  }
-
-  /* Section Footer */
-  .copyrights {
-    padding-right: 2.4rem;
-    margin-top: 2rem;
   }
 }
 

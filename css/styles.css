@@ -531,7 +531,7 @@ footer {
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 3.2rem;
+  column-gap: 12.2rem;
 }
 .section-footer .flex {
   justify-content: space-around;
