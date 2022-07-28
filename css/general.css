@@ -237,3 +237,7 @@ ul {
   color: #999;
   opacity: 1; /* Firefox */
 }
+.logo-link:link,
+.logo-link:visited {
+  text-decoration: none;
+}
