@@ -205,6 +205,9 @@ body {
   margin-bottom: 6.4rem;
 }
 
+.mb-0 {
+  margin-bottom: 0.8rem;
+}
 .mb-1 {
   margin-bottom: 1.2rem;
 }
@@ -243,4 +246,8 @@ ul {
 }
 .process-list {
   margin-left: 2.4rem;
+}
+.portfolio-highlight {
+  color: #444;
+  font-weight: 600;
 }
