@@ -1089,6 +1089,7 @@
               class="cta-form"
               action="https://formsubmit.co/a57358e4bf817df97871feaa38a7bf2e"
               method="POST"
+              id="contactForm"
             >
               <div class="form-element">
                 <label for="full-name">Name</label>
@@ -1110,14 +1111,25 @@
                 />
               </div>
               <div>
-                <label for="phone">Contact Number</label>
+                <label for="contact">Contact Number</label>
                 <input
                   type="number"
                   placeholder="+91 1234 567 890"
                   name="contact"
-                  required
                 />
               </div>
+              <label for="message">Message</label>
+              <textarea
+                placeholder="Your Message"
+                rows="3"
+                name="message"
+                form="contactForm"
+              ></textarea>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://sahilpingale.github.io/portfolio/"
+              />
               <button class="form-btn">Hit me up</button>
             </form>
           </div>
