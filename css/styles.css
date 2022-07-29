@@ -435,7 +435,7 @@ header {
 
 /* SECTION-PORTFOLIO */
 .section-portfolio {
-  margin-top: 15rem;
+  margin-top: 9.6rem;
 
   /* temp */
   margin-bottom: 9.6rem;
@@ -534,7 +534,7 @@ footer {
 }
 .section-footer {
   margin-top: 20rem;
-  padding: 2.4rem 0;
+  padding: 3.2rem 0;
   background-color: #d0ebff;
 }
 .footer-grid {
@@ -674,6 +674,7 @@ footer {
 
 /* SECTION SKILLS */
 .section-skills {
+  position: relative;
   background-color: #d0ebff;
   padding-block: 7.2rem;
   margin-top: 4.4rem;
