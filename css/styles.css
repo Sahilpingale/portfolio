@@ -189,7 +189,7 @@ header {
   position: relative;
 }
 .hero-img-box img {
-  width: 75%;
+  width: 70%;
   display: block;
   margin: 0 auto;
 }
@@ -219,6 +219,11 @@ header {
   color: #666;
   line-height: 1.8;
   margin-top: 1.2rem;
+}
+.highlight {
+  color: #339af0;
+  font-size: 3.2rem;
+  line-height: 1.8rem;
 }
 
 /************SECTION-FEATURES*************/
@@ -267,7 +272,7 @@ header {
 .process-grid {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 9.6rem;
+  row-gap: 7.6rem;
   margin-top: 6.4rem;
 }
 .process-number {
@@ -280,8 +285,11 @@ header {
   font-size: 2.4rem;
   line-height: 1.8;
 }
+.process-img-box {
+  text-align: center;
+}
 .process-img-box img {
-  width: 100%;
+  width: 75%;
 }
 
 /* *********************SECTION-CTA****************** */

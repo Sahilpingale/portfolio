@@ -51,7 +51,7 @@
             <a href="#section-about-me" class="main-nav-link">About Me</a>
           </ul>
           <ul>
-            <a href="index.html" class="main-nav-link">Skills</a>
+            <a href="#section-skills" class="main-nav-link">Skills</a>
           </ul>
           <ul>
             <a href="#section-portfolio" class="main-nav-link">Portfolio</a>
@@ -71,7 +71,7 @@
             <p class="hero-description">
               Get web solutions that add value to your business
             </p>
-            <a class="btn hero-btn" href="#section-cta">Learn how &rarr;</a>
+            <!-- <a class="btn hero-btn" href="#section-cta">Learn how &rarr;</a> -->
           </div>
           <div class="hero-img-box">
             <!-- <picture> -->
@@ -111,11 +111,16 @@
               Your partner in digital transformation
             </h2>
             <p class="about-me-text">
-              Hi, I'm Sahil Pingale. I'm a freelance web developer based in
+              <!-- Hi, I'm Sahil Pingale. I'm a freelance web developer based in
               Pune. I design and develop websites, single and multi page
               applications for indviduals and startups. I'm proficient in
               developing digital solutions like landing pages, e-commerce store,
-              blog websites and custom ERP products.
+              blog websites and custom ERP products. -->
+              Hi, I'm <span class="highlight">Sahil Pingale</span>, a web
+              developer based in Pune, India. I'm passionate about bringing both
+              the technical and visual aspects of digital products to life. I'm
+              happiest when I'm creating, learning, exploring and thinking about
+              how to make things better.
             </p>
           </div>
         </div>
@@ -961,10 +966,15 @@
                 <h3 class="heading-tertiary mb-1">
                   Plan and define the project
                 </h3>
-                <p class="process-description">
-                  Understanding your needs and goals Defining your target
-                  audience Creating a sitemap
-                </p>
+                <ol class="process-description">
+                  <li class="process-list">
+                    Understand the project requirements.
+                  </li>
+                  <li class="process-list">Prepare sitemap.</li>
+                  <li class="process-list">
+                    Create sketches, wireframes in Figma.
+                  </li>
+                </ol>
               </div>
             </div>
             <div class="step-1__image process-img-box">
@@ -974,36 +984,32 @@
               />
             </div>
           </div>
-          <!-- STEP 2 -->
-          <div class="container grid grid-col-2">
-            <div class="step-2__image process-img-box">
-              <img
-                src="img/Process/step-2.png"
-                alt="Discussion process with client"
-              />
-            </div>
-            <div class="step-2__text process-text-box">
-              <p class="process-number">02</p>
-              <div>
-                <h3 class="heading-tertiary mb-1">
-                  Come up with sketch design
-                </h3>
-                <p class="process-description">
-                  An iterative process of experimenting with various designs,
-                  components and layouts until a good solution is found.
-                </p>
-              </div>
-            </div>
-          </div>
           <!-- STEP 3 -->
           <div class="container grid grid-col-2">
             <div class="step-3__text process-text-box">
-              <p class="process-number">03</p>
+              <p class="process-number">02</p>
               <div>
                 <h3 class="heading-tertiary mb-1">Build</h3>
-                <p class="process-description">
-                  Time to turn your finalized design into code
-                </p>
+                <ol class="process-description">
+                  <li class="process-list">Setup server using NodeJs.</li>
+                  <li class="process-list">
+                    Create MongoDb database, schemas and data models.
+                  </li>
+                  <li class="process-list">
+                    Design backend routes and endpoints using REST APIs.
+                  </li>
+                  <li class="process-list">
+                    Test backend functionality using Postman.
+                  </li>
+                  <li class="process-list">
+                    Setup frontend by creating React app, installing react-dom
+                    and react-router.
+                  </li>
+                  <li class="process-list">Create React Components.</li>
+                  <li class="process-list">
+                    Setup redux store, reducers and actions.
+                  </li>
+                </ol>
               </div>
             </div>
             <div class="step-3__image process-img-box">
@@ -1022,28 +1028,36 @@
               />
             </div>
             <div class="step-4__text process-text-box">
-              <p class="process-number">04</p>
+              <p class="process-number">03</p>
               <div>
                 <h3 class="heading-tertiary mb-1">Test and optimize</h3>
-                <p class="process-description">
-                  Making sure your website works as expected across all major
-                  browsers. Testing with different aspect ratios
-                </p>
+                <ol class="process-description">
+                  <!-- Making sure your website works as expected across all major
+                  browsers. Testing with different aspect ratios -->
+                  <li class="process-list">Optimize for responsive layout.</li>
+                  <li class="process-list">
+                    Test functionality across various browsers and aspect
+                    ratios.
+                  </li>
+                  <li class="process-list">
+                    Optimize react for production build.
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
           <!-- STEP 5 -->
           <div class="container grid grid-col-2">
             <div class="step-5__text process-text-box">
-              <p class="process-number">05</p>
+              <p class="process-number">04</p>
               <div>
                 <h3 class="heading-tertiary mb-1">Launch</h3>
-                <p class="process-description">
-                  Share the masterpiece with the world by:
-                </p>
-                <p class="process-description">
-                  Selecting a domain name. Hosting the project on a cloud server
-                </p>
+                <ol class="process-description">
+                  <li class="process-list">Buy domain name</li>
+                  <li class="process-list">
+                    Deploy on Heroku or host on GitHub using GitHub Pages
+                  </li>
+                </ol>
               </div>
             </div>
             <div class="step-5__image process-img-box">
@@ -1053,24 +1067,6 @@
               />
             </div>
           </div>
-          <!-- STEP 6 -->
-          <div class="container grid grid-col-2">
-            <div class="step-6__image process-img-box">
-              <img
-                src="img/Process/step-6.png"
-                alt="Discussion process with client"
-              />
-            </div>
-            <div class="step-6__text process-text-box">
-              <p class="process-number">06</p>
-              <div>
-                <h3 class="heading-tertiary mb-1">Maintenance and update</h3>
-                <p class="process-description">
-                  Installing analytics software. Keeping the website updated.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -1078,7 +1074,7 @@
       <section class="section-cta" id="section-cta">
         <div class="container grid grid-col-2">
           <div class="cta-text-box">
-            <span class="cta-subheading">Ready for a unique experiene?</span>
+            <span class="cta-subheading">Have some questions?</span>
             <div>
               <div class="cta-lets">
                 <h2 class="cta-heading">let's</h2>
@@ -1089,14 +1085,17 @@
             </div>
           </div>
           <div class="cta-form-box">
-            <form class="cta-form" name="sign-up" netlify>
+            <form
+              class="cta-form"
+              action="https://formsubmit.co/techdart0@gmail.com"
+              method="POST"
+            >
               <div class="form-element">
                 <label for="full-name">Name</label>
                 <input
-                  id="full-name"
                   type="text"
                   placeholder="Your Name"
-                  name="full-name"
+                  name="name"
                   required
                 />
               </div>
@@ -1104,7 +1103,6 @@
               <div>
                 <label for="email">Email address</label>
                 <input
-                  id="email"
                   type="email"
                   placeholder="me@example.com"
                   name="email"
@@ -1114,10 +1112,9 @@
               <div>
                 <label for="phone">Contact Number</label>
                 <input
-                  id="phone"
                   type="number"
-                  placeholder="+91 1234 567 89"
-                  name="phone"
+                  placeholder="+91 1234 567 890"
+                  name="contact"
                   required
                 />
               </div>

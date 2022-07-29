@@ -91,6 +91,9 @@
     font-size: 2.1rem;
     line-height: 1.7;
   }
+  .highlight {
+    font-size: 2.6;
+  }
 
   /* Section Skills */
   .skills-grid {
@@ -105,7 +108,7 @@
 
   /* Section How it Works(process) */
   .process-grid {
-    row-gap: 7.6rem;
+    row-gap: 7rem;
   }
   .process-description {
     font-size: 2.2rem;
@@ -180,6 +183,9 @@
     font-size: 1.8rem;
     line-height: 1.7;
   }
+  .highlight {
+    font-size: 2.2rem;
+  }
   .section-about-me .grid {
     column-gap: 2.4rem;
   }
@@ -191,6 +197,9 @@
   }
   .section-skills .portfolio-title {
     font-size: 2.2rem;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   /* Section Features */
@@ -210,7 +219,7 @@
 
   /*Section How it works(process)  */
   .process-grid {
-    row-gap: 7.6rem;
+    row-gap: 6.4rem;
     padding: 0;
   }
   .process-description {
@@ -396,7 +405,7 @@
 
   /* Section Skills */
   .skills-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .section-skills .portfolio-title {
     font-size: 2rem;
