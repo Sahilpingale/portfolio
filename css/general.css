@@ -184,6 +184,22 @@ body {
   margin-right: 6.4rem;
 }
 
+.ml-1 {
+  margin-left: 1.2rem;
+}
+.ml-2 {
+  margin-left: 2.4rem;
+}
+.ml-3 {
+  margin-left: 3.2rem;
+}
+.ml-4 {
+  margin-left: 4.4rem;
+}
+.ml-5 {
+  margin-left: 5.6rem;
+}
+
 .my-1 {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
