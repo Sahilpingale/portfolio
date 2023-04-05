@@ -267,3 +267,6 @@ ul {
   color: #444;
   font-weight: 600;
 }
+.alignCenter{
+  align-items: center;
+}
