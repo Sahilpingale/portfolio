@@ -268,6 +268,7 @@ header {
 }
 .section-process .container {
   margin-bottom: 5.6rem;
+  align-items: center;
 }
 .process-grid {
   display: grid;
