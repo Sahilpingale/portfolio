@@ -329,6 +329,9 @@
   }
 
   /* Section How it works(process) */
+  .responsiveFix{
+    grid-row: 1;
+  }
   .process-grid {
     row-gap: 8rem;
   }
