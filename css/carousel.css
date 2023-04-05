@@ -67,10 +67,11 @@
 }
 
 .carousel__nav {
-  /* background: pink; */
   display: flex;
   justify-content: center;
   padding: 10px 0;
+  flex-wrap: wrap;
+    row-gap: 7px
 }
 
 .carousel__indicator {

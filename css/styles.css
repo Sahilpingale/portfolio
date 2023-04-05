@@ -441,7 +441,7 @@ header {
   margin-bottom: 9.6rem;
 }
 .section-portfolio .container {
-  margin-bottom: 6.4rem;
+  margin-bottom: 3.4rem;
 }
 .section-portfolio .grid {
   padding-inline: 4.4rem;
@@ -449,8 +449,10 @@ header {
 .portfolio-card {
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.07); */
+  box-shadow: 2rem 2rem 1.5rem rgba(0, 0, 0, 0.05);
   transition: all 0.4s;
+  border: 1px solid #ddd
 }
 .portfolio-card:hover {
   transform: translateY(-1.2rem);
@@ -504,6 +506,7 @@ header {
 .portfolio-description {
   font-size: 1.8rem;
   margin-top: 0.8rem;
+  line-height: 1.1;
 }
 .portfolio-img {
   width: 100%;
