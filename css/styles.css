@@ -701,6 +701,11 @@ footer {
 }
 .skill-item {
   text-align: center;
+  
+}
+.skill-item-img{
+  height: 76px;
+  width: 76px;
 }
 .section-skills svg {
   height: 76px;
